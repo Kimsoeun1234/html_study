@@ -5,4 +5,9 @@
 <p>h1~h3은 검색키워드로 활용가능하다. h4~h6 꼭 필요한 경우만 이용하거나 권장안함</p>
 <p>block과 inline태그는 의미에 맞게 외부/내부 구조로 구성해서 사용해야 한다.(의미 중첩되지 않도록)</p>
 <hr>
-<h2>230214 - HTML</h2>
+<h2>230214 - HTML - 문서태그+내비게이션 개념</h2>
+<p>피그마 기본 툴, 단축키 </p>
+<p>내비게이션 개념 - GNB ( global navigation bar) LNB(local navigation bar) SNB(side navigation bar) fnb(footer navigation bar) </p>
+<p><em>em</em>, <strong>strong</strong>, <blockquote>blockquote</blockquote>, q, <address>address</address>, <code>code</code>, <hr>hr</hr>, <del>del</del>, <s>s</s>, <sub>sub</sub>, <sup>sup</sup> </p>
+<blockquote> cite="https://webty.tistory.com/85"</blockquote>
+<hr>

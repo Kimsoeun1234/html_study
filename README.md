@@ -11,3 +11,9 @@
 <p><em>em</em>, <strong>strong</strong>, <blockquote>blockquote</blockquote>, q, <address>address</address>, <code>code</code>, <hr>hr</hr>, <del>del</del>, <s>s</s>, <sub>sub</sub>, <sup>sup</sup> </p>
 <blockquote> cite="https://webty.tistory.com/85"</blockquote>
 <hr>
+<h2>23.02.15 - HTML - 문단태그</h2>
+<u1>
+ <li>ul,ol,li 순서있는 목록 없는 목록 구분 확실히 해야함.</li>
+ <li>li의 <em>형제태그</em>는 li만 올 수 있으니 나머지 태그는 그 자식, 자손태그에 삽입해야 한다</li>
+ <li></li>
+</u1>

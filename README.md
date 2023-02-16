@@ -30,3 +30,11 @@
   <dt>
 </dl>
 <hr>
+<div class="study">
+ <h2>23.02.16 - HTML - 시맨틱태그, 그룹태그</h2>
+ <dl>
+   <dt>그룹 div</dt>
+   <dd>2개 이상의 인라인 or 블록 요소를 묶어주는 그룹 태그</dd>
+   <dd> class를 이용해 이름을 지정해 둘 것 div class="title" </dd>
+ </dl>
+ </div>

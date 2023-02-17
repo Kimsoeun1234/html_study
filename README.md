@@ -42,7 +42,7 @@
 <h2>이미지, 비디오, 링크 넣는 방법</h2>
 <dl>
  <dt>비디오 작성하는 방법</dt>
- <dd><video src="동영상경로"></video></dd>
+ <dd>[video] src="동영상경로"[/video]</dd>
  <dt>비디오를 작성하는 방법2</dt>
  <dd> <video>
  <source src="동영상경로" type="동영상타입1">

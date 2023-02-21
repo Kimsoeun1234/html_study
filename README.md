@@ -61,3 +61,4 @@
   <label><input type="radio" name="quiz" value="class">2.class</label><br>
   <label><input type="radio" name="quiz" value="name">3.name</label>
   </fieldset>
+ </form>

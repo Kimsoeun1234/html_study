@@ -60,5 +60,9 @@
   <label><input type="radio" name="quiz" value="id">1.id</label><br>
   <label><input type="radio" name="quiz" value="class">2.class</label><br>
   <label><input type="radio" name="quiz" value="name">3.name</label>
+   <span>다음 중 form 정보 컨트롤 요소 들을 용도에 맞게 그룹으로 묶을 경우 사용하는 태그는? </span><br>
+   <lable><input type="radio" name="quiz" value=Fieldset>1.Fieldset</label>
+   <lable><input type="radio" name="quiz" value=Fieldset>2.legend</label>
+   <lable><input type="radio" name="quiz" value=Fieldset>1.Fieldset</label>
   </fieldset>
  </form>

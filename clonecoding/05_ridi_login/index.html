@@ -10,29 +10,32 @@
 </head>
 <body>
     <header>
-        <div class="home">
-            <a href="#">리디북스</a>
-        </div>
+        <h1><a href="#"><img src="#" alt="RIDIBOOKS"></a></h1>
     </header>
-    <fieldset>
-        <legend>로그인양식</legend>
-        <ul class="left">
-                <li>
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>로그인양식</legend>
+                <ul>
+                    <li><input type="text" placeholder="아이디" name="user_id" autofocus></li>
+                    <li><input type="password" placeholder="비밀번호" name="user_pw"></li>
+                    <li>
+                        <label for="login_y">
+                            <input type="checkbox" value="login_y" id="login_y">
+                        
+                        <span>로그인 상태 유지</span>
+                    </label>
                     <span>
-                    <input type="text" name="user_id" placeholder="아이디"></span>
-                </li>
-                <li>
-                    <span>
-                    <input type="password" name="user_pw" placeholder="비밀번호"></span>
-                </li>
-        </ul>
-            <p><input type="checkbox" name="agree" value="1">로그인상태유지</p>
-        <div class="menu">
-            <a href="#">아이디 찾기</a>
-            <a href="#">비밀번호 재설정</a>
-        </div>
-        <p><button type="button">로그인</button></p>
-        <p><button type="button">회원가입</button></p>
-    </fieldset>
+                        <a href=""
+                    </span>
+                    </li>
+                </ul>
+                <div class="btn">
+                    <button type="button">로그인</button>
+                    <a hrdf="#">회원가입</a>
+                </div>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>

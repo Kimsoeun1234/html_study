@@ -72,7 +72,7 @@
  <dt><em>css</em>reset</dt>
   <dd>
    <ul>
-    <li>reset.css를 제작하여 링크를 html title밑에 넣고 외부스타일시트 각주표시해주기</li>
+    <li>reset.css를 제작하여 링크를 html title밑에 넣고 외부스타일시트 각주표시해주기<em>link href="./styles/reset.css" rel="stylesheet" type="text/css"</em></li>
     <li>link href="./styles/reset.css" rel="stylesheet" type="text/css"</li>
    </ul>
   <dt>

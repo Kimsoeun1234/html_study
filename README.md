@@ -68,6 +68,7 @@
  </form>
  <hr>
  <h2>23.02.23-css-form</h2>
+ <p>reset css</p>
  <p>/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
  */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
@@ -76,6 +77,6 @@ p,ul,ol,li,blockquote,dl,dt,dd,address,video
 strong,em,del,sup,sub,s,q,code,img,a,
 table,tr,th,td,thead,tbody,tfoot,
 form,fieldset,legend,label,input,textarea,option,select,button,
-header,main,footer,article,section,aside,nav,figure,figcaption,div,span 
+  header,main,footer,article,section,aside,nav,figure,figcaption,div,span </p>
  <hr>
  <h2>23.02.24-css</h2>

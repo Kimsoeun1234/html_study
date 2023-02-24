@@ -69,11 +69,12 @@
  <hr>
  <h2>23.02.23-css-form</h2>
 <dl>
- <dt><em>css</em>reset</dt>
+ <dt>css reset</dt>
   <dd>
    <ul>
-    <li>reset.css를 제작하여 링크를 html title밑에 넣고 외부스타일시트 각주표시해주기<em>link href="./styles/reset.css" rel="stylesheet" type="text/css"</em></li>
-    <li>link href="./styles/reset.css" rel="stylesheet" type="text/css"</li>
+    <li>reset.css를 제작하여 링크를 html title밑에 넣고 외부스타일시트 각주표시해주기<br>link href="./styles/reset.css" rel="stylesheet" type="text/css"</li>
+    <li>선택자 작성연습<br>1. HTML태그 꾸미는 대상 확인<br>2. 위 태그가 가족관계에 속해있는지 확인 (가족관계 중 body, html은 생략가능)</li>
+    <li
    </ul>
   <dt>
 </dl>

@@ -74,7 +74,17 @@
    <ul>
     <li>reset.css를 제작하여 링크를 html title밑에 넣고 외부스타일시트 각주표시해주기<br>link href="./styles/reset.css" rel="stylesheet" type="text/css"</li>
     <li>선택자 작성연습<br>1. HTML태그 꾸미는 대상 확인<br>2. 위 태그가 가족관계에 속해있는지 확인 (가족관계 중 body, html은 생략가능)</li>
-    <li
+   </ul>
+  <dt>
+</dl>
+ <hr>
+ <h2>23.02.24-css-스타일</h2>
+<dl>
+ <dt>css 스타일 변화</dt>
+  <dd>
+   <ul>
+    <li></li>
+    <li></li>
    </ul>
   <dt>
 </dl>

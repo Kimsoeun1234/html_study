@@ -2,7 +2,7 @@
 header,
 main > div > * {
     /* border:5px solid red; */ 
-    width:1200px; 
+    width:1200px;
     margin:0 auto;
 }
 /* main .bg_path .top,
@@ -14,7 +14,7 @@ footer address,
 footer > p {
     /* border:5px solid red; */ 
     width:1200px;
-     margin:0 auto;
+    margin:0 auto;
     }
 main > div > * {
     text-align:center;

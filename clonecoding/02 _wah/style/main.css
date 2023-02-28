@@ -1,0 +1,15 @@
+main {
+    background-color:yellow;
+    width:850px;
+    margin:0 auto;
+}
+main .top {background-color:aqua; height:100px; }
+main .top h1{float:left  line-height:92px;}
+main .top dl{float:right}
+main .top dl dd{}
+main .top dl dd span{}
+main .top dl dd em{}
+main section{background-color:beige;}
+main section h2{}
+main section p{}
+main section p em{}

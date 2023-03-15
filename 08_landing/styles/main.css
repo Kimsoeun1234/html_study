@@ -1,0 +1,178 @@
+#visual_bg {
+    background:url(../images/bg1.png) center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+#visual_bg #visual_bg_gra {
+    background:linear-gradient(-180deg, rgba(0,0,0,0.5), transparent 80%);
+}
+#visual_bg #visual_bg_gra .container {
+    width:1220px; margin:0 auto; padding:300px 0; text-align:center;
+    position:relative;
+}
+#visual_bg #visual_bg_gra .container .logo {
+    width:100px; position:absolute; left:0; top:0;
+}
+#visual_bg #visual_bg_gra .container .logo a {}
+#visual_bg #visual_bg_gra .container .logo a img {width:100%;}
+#visual_bg #visual_bg_gra .container .title {margin-bottom:50px;}
+#visual_bg #visual_bg_gra .container .title, 
+#visual_bg #visual_bg_gra .container .title em {
+    text-align:center; back; color:white; font-size:4rem;
+    letter-spacing:-0.02em; text-align:center;line-height:1.2;}
+#visual_bg #visual_bg_gra .container .title em {font-weight:700;}
+#visual_bg #visual_bg_gra .container .sponser img {}
+#visual_bg #visual_bg_gra .container .question {}
+#visual_bg #visual_bg_gra .container .question img {position:absolute; right:0; bottom:200px;}
+
+#visual_bg #visual_bg_gra .container .logo {}
+
+/*---------------------------------------2. 퀴즈 */
+#quiz_bg {
+    background:url(../images/quiz_bg.png) center;
+    background-size:cover;
+    }
+#quiz_bg .container {
+    width:1220px; margin:0 auto; background:aqua; padding:100px 0;
+    display:flex;/*flex시작필수값(부모)*/
+}
+#quiz_bg .container .left {width:50%; background-color:blue; }
+#quiz_bg .container .left #quizfrm {}
+#quiz_bg .container .left #quizfrm fieldset {padding-top:30px;}
+#quiz_bg .container .left #quizfrm fieldset  h1 {
+    font-size: 50px; color:white; text-align: center; font-weight:900; }
+#quiz_bg .container .left #quizfrm fieldset  h2 {
+    line-height: 2; font-size: 20px; font-weight:500; color:white;
+}
+#quiz_bg .container .left #quizfrm fieldset  ul {font-size: 20px; font-weight:500; color:white;}
+#quiz_bg .container .left #quizfrm fieldset  li {line-height: 30px; }
+#quiz_bg .container .left #quizfrm fieldset  li input[name=quiz] {}
+#quiz_bg .container .left #quizfrm fieldset  li input label {}
+#quiz_bg .container .left #quizfrm fieldset  p {}
+#quiz_bg .container .left #quizfrm fieldset  p .quiz_answer {margin:20px; color:white; width:90%; height:50px; background-color:rgb(44, 42, 42); border-radius:20px;}
+#quiz_bg .container .right {width:50%; background:yellow; }
+#quiz_bg .container .right p {text-align: center; line-height: 30px;}
+#quiz_bg .container .right p img {}
+
+/* -----------------------------------campaign통합 */
+.campaign_bg {}
+.campaign_bg .container{
+    width:1220px; margin:0 auto; padding:100px 0;}
+.campaign_bg .container h1,
+.campaign_bg .container h1 * {font-size:3rem; font-weight: 700; letter-spacing:-0.02em; line-height:1.5}
+
+    /* ---------------------campaign1~7 배경모음 */
+.campaign1 {background:url(../images/video_bg.png;); background-size:cover; }
+.campaign2 {background:url(../images/50_bg.png);}
+.campaign3 {background:#eee}
+.campaign4{background:url(../images/50_bg.png);}
+.campaign5{background:url(../images/wwf.jpg); background-size:cover;background-position:center -150px;}
+.campaign6{background:url(../images/50_bg.png);}
+.campaign7{background:url(../images/bg2.png); background-size:cover;}
+
+/* -----------------------------------campaign1~7 */
+.campaign_bg  .container h1+p {
+    font-size:1.7rem; letter-spacing: -0.02em;
+    line-height:1.6;
+}
+
+/* -----------------------------------campaign1 */
+.campaign_bg {}
+.campaign1 {background-color: white;}
+.campaign1 .container {
+    width:1220px; margin:0 auto; padding:100px 0;
+    display:flex; flex-flow:column wrap; align-items:center;
+}
+.campaign1 .container  h1{text-align:center; font-size:3rem; }
+.campaign1 .container  iframe{margin:50px 0;}
+.campaign1 .container  .sponsor{}
+.campaign1 .container  .sponsor img{}
+
+/* --------------------------------------1~7 제목 포인트 */
+.campaign_bg .container h1 em {
+    background:#fff; color:black; padding: 8px 2;
+}
+
+/* --------------------------------------campaign2 */
+.campaign2 .container {}
+.campaign2 .container h1 {color:white;}
+.campaign2 .container h1+p {color:white; padding:20px 0 }
+.campaign2 .container p:last-child {}
+.campaign2 .container p:last-child img {width:100%; }
+/* --------------------------------------campaign3 */
+.campaign3 .container {}
+.campaign3 .container h1{text-align:center;}
+.campaign3 .container h1+p{
+    text-align:center; 
+    padding:20px 0 50px;}
+.campaign3 .container ul{
+    background-color:rgb(204, 169, 73);
+    display:flex; flex-direction: row nowrap; justify-content: space-between;
+}
+.campaign3 .container ul li{
+    width:32%/* 100-4/3 */; 
+    text-align: center; padding-top:35px;
+    background-size:cover; background-position:center -150px;
+    display:flex; flex-flow:column nowrap; height:500px; justify-content: space-between; 
+}
+.campaign3 .container ul li:nth-child(1){background-image:url(../images/28.png); background-position:center -100px;}
+.campaign3 .container ul li:nth-child(2){background-image:url(../images/27.png); background-position:center -100px;}
+.campaign3 .container ul li:nth-child(3){background-image:url(../images/332.png); background-position:center -100px;}
+.campaign3 .container ul h2 {color:#fff; font-size:4rem;}
+.campaign3 .container ul p {color:#fff; font-size:1.7rem;}
+.campaign3 .container ul p:nth-child(2) {padding:25px 0 120px}
+.campaign3 .container ul p:last-child{
+    padding:20px; height:250px; 
+    background:#fff;font-size:1.2rem; 
+    line-height:1.5; color:black;}
+
+/* -------------------------------------campaign4 */
+.campaign4 .container {}
+.campaign4 .container h1 {color:white;}
+.campaign4 .container h1+p {color:white;}
+.campaign4 .container p:last-child {padding:25px 0;}
+.campaign4 .container p:last-child img {width:100%;}
+
+/* -------------------------------------campaign5 */
+.campaign5 {position:relative;}
+.campaign5::before {
+    /* 배경rgba위치 */ 
+    content:""; display:block; width:100%; height:100%; 
+    background: rgba(255, 255, 255, 0.7);
+    position:absolute; left:0; top:0; z-index:10;
+}
+.campaign5 .container {text-align:center;z-index:11; position:relative;}
+.campaign5 .container  h1 {padding-bottom:30px;}
+.campaign5 .container  p {padding-bottom:30px; font-size:1.5em; line-height:40px;}
+.campaign5 .container  p:last-child {}
+
+/* -------------------------------------campaign6 */
+.campaign6 .container .title {display:flex; flex-flow:row nowrap; justify-content: space-between; color:#fff;}
+.campaign6 .container .title h1 {}
+.campaign6 .container .title .sponsor {}
+.campaign6 .container .contents {display:flex; flex-flow:row nowrap; justify-content:space-between;}
+.campaign6 .container .contents li {
+    width:32%;/* 100-4/3 */ color:#fff; line-height:30px; text-align:center; padding-bottom:30px; padding-top:30px;}
+.campaign6 .container .contents li::before {
+    content:""; display:block; background-size:cover; height:200px; 
+}
+.campaign6 .container .contents li:nth-child(1)::before {
+    background-image:url(../images/freebie1.jpg)}
+.campaign6 .container .contents li:nth-child(2)::before {
+    background-image:url(../images/freebie2.jpg)}
+.campaign6 .container .contents li:nth-child(3)::before {
+    background-image:url(../images/freebie3.jpg)}
+.campaign6 .container p:last-child {text-align:right; background:#fff; color:black; display:inline-block;}
+/* -------------------------------------campaign7 */
+.campaign7 .container {
+    display:flex; flex-flow:column nowrap; justify-content: space-between; 
+    text-align:center; }
+.campaign7 .container h1 {}
+.campaign7 .container h2 {line-height:105px; font-size: 1.2rem; font-weight:700;}
+.campaign7 .container .sponsor {padding-bottom:0.3%;}
+.campaign7 .container .sponsor img {}
+/* -------------------------------------footer */
+.footer .container {}
+.footer .container h2 {font-weight: 900; padding-bottom:20px; font-size:1.2rem;}
+.footer .container ul {}
+.footer .container ul li{line-height:1.8;}

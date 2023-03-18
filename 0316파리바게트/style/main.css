@@ -1,0 +1,9 @@
+/* -----------------로고*/
+#logo .container .logo {background-color:#ffffff; width:1220px; height:90px; text-align:center;}
+#logo .container .logo img {width:300px; height :90px;}
+/* -----------------메인 배너*/
+#main_banner_bg {background:url(./img/2.jpg) center; background-size:cover; width:1220px; height:480px;}
+#main_banner_bg #main_banner_bg_gr {background:linear-gradient(-180deg, rgba(0, 0, 0, 0.568), transparent 100%);}
+#main_banner_bg #main_banner_bg_gr #main_banner .title h1 {color:aliceblue; font-size:30px; line-height:45px; padding:200px 60px; }
+#main_banner_bg #main_banner_bg_gr #main_banner .title h1 em {font-size:40px; line-height:100px; font-weight:600;}
+/* -----------------동영상 */

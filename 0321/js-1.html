@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">\
+    <meta name="keywords" content="">\
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-1</title>
+    <script>
+        // 내부 스크립트 위치
+        // 변수의 선언과 대입
+        // var 그릇 // 빈 저장소
+        // var 그릇 = 쌀밥 // 데이터 대입
+        // var 그릇 = 콩밥 // 데이터 변경 (추가로 콩밥 입력시 콩밥으로 데이터 변경)
+        // var box1 = 10 //대입 (출력x)
+        // window.alert(box1) //출력 - 객체.메소드()
+        //객체.속성 
+        //객체.메소드()
+
+        var box1 //변수생성 (선언)
+        var box2 = 1 //변수생성과 대입을 동시생성
+        console.log (box1) //undefined
+        box1 = 10
+        console.log (box1) //10 / 위치에 따라 다르게 인식(아무것도 저장되지 않은 상태일때랑 10을 대입했을때랑 다른 동적값 적용가능)
+        box1 = 20
+        console.log (box1) //20
+        box2 = box1 //20 / 우측값을 좌측에 대입해서 위에 입력한 box1값인 20이 적용
+        console.log(box1, box2) //20 20//
+
+        console.log(typeof box1) //box1 데이터 타입이 무엇을 나타내는지 확인하는 typeof - number라고 확인됨
+        console.log(typeof box2) 
+
+        var box3 = 'A'
+        console.log(typeof box3)//문자일 경우 따옴표로 묶어야 함
+        console.log(typeof box1+1)//오른쪽에서 왼쪽으로 해석 20+1
+        console.log(typeof box3+1)//'A'+1
+
+        var box4 = '아이디를 입력하세요'
+        console.log(box4.length)//글자 수 확인 속성 length (공백포함)
+
+        var a = 1
+        var b = a //b=1
+        var c = a + b + C //1,1,NaN (오른쪽부터 읽어서 c에는 아직 값이 안들어가 있음) NaN(Not a Number:c가 숫자가아니라서 대입할 수 없다)
+        console.log(a, b, c)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

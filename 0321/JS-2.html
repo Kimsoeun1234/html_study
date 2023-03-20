@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-2</title>
+    <script>
+        //var 1num=10; // x (숫자가 먼저 나오면 안됨) 
+        //var $num=10;  
+        //var 100num=10; // x (숫자가 먼저 나오면 안됨)
+        //var num100=10; 
+        //var document=10; //x (키워드를 변수 이름으로 적으면 안됨) 객체.메소드(키워드)
+        //var num=10; 
+        //var str="hello"; 
+        //var num=10; document.write(Num); // x (변수값과 출력값이 대문자소문자 다르게 입력해 다른값으로 인식)
+        //var num=10; document.write(num); 
+        
+        var box1 = 1
+        var box1 = 2
+        console.log(box1)//var는 box1 중복되도 구분 못함
+
+        let box2 = 3
+        let box2 = 4
+        console.log(box2) //let은 box2 중복 선언되어 에러로 알려줌 / 4를 사용하고 싶으면 앞에 let을 지우고 box2=4로 변경
+
+        const box3 = 5
+        box3 = 6
+        console.log(box3) //error-상수는 처음부터 값을 선언해야함
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

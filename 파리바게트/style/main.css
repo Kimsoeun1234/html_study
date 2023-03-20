@@ -1,0 +1,27 @@
+body {background:center;}
+/* -----------------로고*/
+#logo .container .logo {background-color:#ffffff; width:1220px; height:90px; text-align:center;}
+#logo .container .logo img {width:300px; height :90px;}
+/* -----------------메인 배너*/
+#main_banner_bg {background:url(./image/2.jpg) center; background-size:cover; width:1220px; height:480px;}
+#main_banner_bg #main_banner_bg_gr {background:linear-gradient(-180deg, rgba(0, 0, 0, 0.568), transparent 100%);}
+#main_banner_bg #main_banner_bg_gr #main_banner .title h1 {color:aliceblue; font-size:30px; line-height:45px; padding:200px 60px; }
+#main_banner_bg #main_banner_bg_gr #main_banner .title h1 em {font-size:40px; line-height:100px; font-weight:600;}
+/* -----------------동영상 */
+#move {background-color:#071b3a; width:1220px; height:480px; }
+#move #move_bg { }
+#move #move_bg #move_contents {display:flex; flex-flow:row;}
+#move #move_bg #move_contents #left {padding:30px}
+#move #move_bg #move_contents #left video {}
+#move #move_bg #move_contents #right {padding-top: 40px;}
+#move #move_bg #move_contents #right img {padding-left:30px; width:200px;}
+#move #move_bg #move_contents #right h1 {padding-left:30px; padding-top:20px; line-height:50px; color:white; font-weight: 600; font-size:38px;}
+#move #move_bg #move_contents #right h1 em {line-height:50px; color:white; font-weight: 700; font-size:38px;}
+#move #move_bg #move_contents #right p {padding-left:30px; padding-top:10px; line-height:30px; color:white; font-size:20px;}
+#move #move_bg #move_contents #right p img {margin-left:50px; padding-top:-600px; width:80%;}
+/* ----------------포인트배너 */
+#point_img {
+    width:1220px; height: 300px; 
+    margin-top:-150px; background-image:url(./image/5.jpg); background-repeat: no-repeat;
+}
+#point_img img {}

@@ -1,0 +1,20 @@
+.container {
+    display:grid;
+    /* =>가로300px세로400px 박스 가로4개씩 */
+    grid-template-columns:repeat(4,1fr); /* 일정한 비율로 배치하고 싶을땐 repeat(4,1fr); 일반적으로는 repeat(4,300px); */  
+    /* grid-template-rows:repeat(2,400px); 사이즈가 길쭉하게 변해서 이미지 a에 패딩값을 줌*/ 
+    background:aqua;
+    max-width:1200px;  /* 반응형으로 제작시 앞에 최대값max붙이기 */
+    margin:0 auto;} /* 화면중앙에 올때 마진주기 위해 우선 가로 사이즈를 300*4개 해서 1200px로 주기 */
+    
+.container a {padding: 0 0 50px;} /* 이미지 크기 고정 */
+.container a p {}
+.container a p img {width:100%;} /* 이미지 크기 고정  */
+@media screen and (max-width:768px){
+    .container { /* ; 적지말것/ 반응형으로 사이즈 줄이면 2줄로 바뀌는 효과 */
+        max-width:calc(100% - 30px);
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+}

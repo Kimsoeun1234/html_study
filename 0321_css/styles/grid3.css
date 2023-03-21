@@ -1,0 +1,15 @@
+.container > * img {
+    display:grid;
+    grid-template-areas:
+    'big big s1 s2'
+    'big big s3 s4'
+    'big big s5 s6'
+}
+.container .big {grid-area:big; margi-right:20px;}
+.container .small {padding-bottom:20px; margin-right:10px;}
+.container .small:nth-child(2) {grid-area:s1;}
+.container .small:nth-child(3) {grid-area:s2;}
+.container .small:nth-child(4) {grid-area:s3;}
+.container .small:nth-child(5) {grid-area:s4;}
+.container .small:nth-child(6) {grid-area:s5;}
+.container .small:nth-child(7) {grid-area:s6;}

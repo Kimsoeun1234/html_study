@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box;}
+        .box {
+            width:200px; height:200px;
+            background:rgb(196, 245, 200);
+            animation: right300 1s ease both;
+            
+        }
+        .box:nth-child(2) {animation: right800 1s both;}
+        .box:nth-child(3) {animation: right300 3s ease both;}
+        .box:nth-child(4) {animation: left200 2s ease both;}
+        .box:nth-child(5) {animation: right300 1s ease both;}
+        /* keyframes */
+        /* 왼쪽->오른쪽 300px 이동 */
+        @keyframes right300 {
+            0% {transform:translateX(0) rotate(0deg)}/* 애니메이션 시작값 */
+            100% {transform:translateX(300px) rotate(45deg)}/* 애니메이션 끝값 */
+        }
+        @keyframes right800 {
+            0% {transform:translateX(0) rotate(60deg)}/* 애니메이션 시작값 */
+            100% {transform:translateX(800px) rotate(200deg)}/* 애니메이션 끝값 */
+        }
+        @keyframes left200 {
+            0% {transform:translateX(0) rotate(39deg)}/* 애니메이션 시작값 */
+            100% {transform:translateY(200px) rotate(360deg)}/* 애니메이션 끝값 */
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="box">A</div>
+    <div class="box">B</div>
+    <div class="box">C</div>
+    <div class="box">D</div>
+    <div class="box">E</div>
+</body>
+</html>
